@@ -91,6 +91,7 @@ header {
     background-size: cover;
     background-position: center center;
     padding: 142px 0;
+    margin-bottom: 140px;
 }
 .breadcrumbs {
     padding-left: 0;
@@ -106,7 +107,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
-    .breadcrumbs a:hover {
+.breadcrumbs a:hover {
         color: #ffc725;
     }
 .breadcrumbs a::before {
@@ -137,4 +138,49 @@ header {
 }
 .banner-box {
     background-image: url(../images/img.jpg);
+    text-align: center;
+    color: #FFFFFF;
+    background-size: cover;
+    background-position: 1px center;   
+}
+.button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    gap: 10px;
+    cursor: pointer;
+}
+.banner-title span {
+    display: flex;
+    width: 58px;
+    height: 18px;
+    padding: 5px 18px;
+    border-radius: 14px;
+    background-color: #F37335;
+    background-size: 95px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18%;
+    text-align: left;
+    }
+.banner-title {
+    font-size: 76px;
+    font-family: nunito sans, black;
+    text-align: left;
+    width: auto;
+    height: auto;
+    font-family: 'Nunito Sans';
+    }
+.banner-link {
+    display: block;
+    background-color: #ffc725;
+    background-size: 170px 58px;
+    text-decoration: none;
+    font-family: 'Nunito Sans', Bold;
+    width: 150px;
+    height: 18px;
+    padding: 1%;
+    gap: 100px;
+    margin: 15% 20%;
 }
