@@ -131,13 +131,13 @@ header {
 .description {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
     color: #FAF9F9;
     max-width: 320px;
     margin: 0 auto;
 }
 .banner-box {
-    background-image: url(../images/img.jpg);
+    background-image: url(../images/banner.jpg);
     text-align: left;
     color: #FFFFFF;
     background-size: cover;
@@ -158,14 +158,8 @@ header {
     align-items: stretch;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: spac-around;
 }
-
-
-
-
-
-
 
 .banner-link {
     background-color: #ffc725;
@@ -177,5 +171,5 @@ header {
     padding: 1%;
     gap: 100px;
     margin: 15% 20%;
-    border-radius: 5px;;
+    border-radius: 5px;
 }
